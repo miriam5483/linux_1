@@ -1,0 +1,15 @@
+  0 ls
+   1 nano script.sh
+   2 chmod +x script.sh 
+   3 ls
+   4 ls -la
+   5 ./script.sh
+   6 history > /tmp/history.txt
+
+
+#!/bin/bash
+mkdir -p /tmp/MIRIAM_
+touch /tmp/MIRIAM_/ponchiki
+date >> /tmp/MIRIAM_/ponchiki
+echo "it works!" >> /tmp/MIRIAM_/ponchiki
+cp /tmp/MIRIAM_/ponchiki /opt
